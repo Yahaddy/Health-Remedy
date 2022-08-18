@@ -1,0 +1,26 @@
+{
+  "name": "health-remedy",
+  "version": "1.0.0",
+  "description": "A database for phramacy/Drug-store information system. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yahaddy/Health-Remedy.git"
+  },
+  "author": "HADDIX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yahaddy/Health-Remedy/issues"
+  },
+  "homepage": "https://github.com/Yahaddy/Health-Remedy#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
