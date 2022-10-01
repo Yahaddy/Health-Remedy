@@ -1,15 +1,19 @@
 const requestLogger = (req, res, next) => {
-console.log('method:', req.method)
-console.log('path:', req.path)
-console.log('Body:', req.body)
-}
-
-const unknownEndPoint = (req, res) => {
-    res.status(404).sent({
-        error: 'unknown endpoint'
+    console.log('Method:', req.method)
+    console.log('Path:', req.path)
+    console.log('Body:', req.body)
+  }
+  
+  const unknownEndpoint = (req, res) => {
+    res.status(404).send({
+      error: 'Unknown endpoint'
     })
-}
-module.exports = {
+  }
+  
+  
+  module.exports = {
     requestLogger,
-    unknownEndPoint
-}
+    unknownEndpoint
+  }
+  
+  
